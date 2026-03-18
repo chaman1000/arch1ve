@@ -6,7 +6,7 @@ box-sizing: border-box;
 }
 
 body {
-background-image: url("/Imagenes/fondos/fondo4.png");
+background-image: url("Imagenes/fondos/fondo4.png");
 background-size: 900px;
 background-repeat: repeat;
 caret-color: transparent;
@@ -89,14 +89,14 @@ object-fit: cover;
 
 
 .Music-page {
-background-image: url("/Imagenes/fondos/fondo2.jpeg");
+background-image: url("Imagenes/fondos/fondo2.jpeg");
 background-size: 800px;
 background-repeat: repeat;
 background-position: center;
 }
 
 .Visuals-page {
-background-image: url("/Imagenes/fondos/fondox.jpg");
+background-image: url("Imagenes/fondos/fondox.jpg");
 background-size: 500px;
 background-repeat: repeat;
 background-position: top;
