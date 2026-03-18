@@ -1,0 +1,174 @@
+/* Reset básico */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+background-image: url("/Imagenes/fondos/fondo4.png");
+background-size: 900px;
+background-repeat: repeat;
+caret-color: transparent;
+user-select: none;
+color: white;
+font-family: monospace;
+text-align: center;
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
+
+.maraton {
+width: 100%;
+margin: 20px auto; 
+}
+.ojito1 {
+width: 50%;
+margin: 20px;
+}
+.dhl {
+width: 35%;
+}
+
+.Menu ul {
+list-style: none;
+display: flex;
+justify-content: center;
+gap: 20px;
+padding: 0;
+}
+
+.Menu a {
+color: white;
+text-decoration: none;
+}
+
+.Menu a:hover {
+text-decoration: underline;
+}
+
+
+p, h1, h2, h3 {
+user-select: text;
+}
+
+h1, h2, p {
+color: white;
+}
+
+.Header, .Menu {
+background-color: black;
+padding: 20px;
+width: 90%;
+max-width: 500px;
+
+margin: 40px auto;
+
+box-shadow: 10px 10px 10px rgb(255, 255, 255);
+}
+
+
+
+
+.album-grid {
+display: flex;
+gap: 15px;
+justify-content: center;
+flex-wrap: wrap;
+padding: 20px;
+}
+
+.album-grid img {
+width: 100px;
+height: 100px;
+object-fit: cover;
+}
+
+
+.Music-page {
+background-image: url("/Imagenes/fondos/fondo2.jpeg");
+background-size: 800px;
+background-repeat: repeat;
+background-position: center;
+}
+
+.Visuals-page {
+background-image: url("/Imagenes/fondos/fondox.jpg");
+background-size: 500px;
+background-repeat: repeat;
+background-position: top;
+}
+
+.caja-arte1,
+.caja-arte2 {
+padding: 30px;
+width: 90%;
+max-width: 1000px;
+
+margin: 60px auto;
+}
+
+.caja-arte1 {
+background-color: white;
+}
+
+.caja-arte2 {
+background-color: black;
+}
+
+.caja-arte1 img,
+.caja-arte2 img {
+width: 100%;
+height: auto;
+}
+
+
+.fondoblanco {
+color: black;
+background-color: white;
+padding: 5px 10px;
+display: inline-block;
+}
+
+.Images1 {
+padding: 20px;
+margin: 30px auto;
+width: 90%;
+max-width: 800px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 600px) {
+
+h1 {
+font-size: 24px;
+}
+
+h2 {
+font-size: 18px;
+}
+
+p {
+font-size: 14px;
+}
+
+.Header, .Menu {
+width: 95%;
+padding: 15px;
+}
+
+.caja-arte1,
+.caja-arte2 {
+width: 95%;
+padding: 15px;
+}
+
+.album-grid {
+grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+gap: 10px;
+}
+
+}
