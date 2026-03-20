@@ -1,14 +1,16 @@
-/* Reset */
+/* RESET */
 body {
   margin: 0;
   font-family: "Courier New", monospace;
-  background-color: #f5f5f5;
+  background: #f5f5f5;
   color: #111;
 }
 
-/* Sidebar */
+/* SIDEBAR */
 .sidebar {
   position: fixed;
+  top: 0;
+  left: 0;
   width: 260px;
   height: 100vh;
   padding: 20px;
@@ -17,23 +19,23 @@ body {
   overflow-y: auto;
 }
 
-/* Título */
 .sidebar h2 {
   font-size: 16px;
   margin-bottom: 20px;
 }
 
-/* Lista */
+/* LISTA */
 ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 li {
   margin-bottom: 8px;
 }
 
-/* Links */
+/* LINKS */
 a {
   color: #333;
   text-decoration: none;
@@ -43,7 +45,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Contenido */
+/* CONTENIDO */
 .content {
   margin-left: 260px;
   padding: 40px;
@@ -51,7 +53,6 @@ a:hover {
   line-height: 1.6;
 }
 
-/* Títulos */
 h1 {
   font-size: 20px;
   margin-bottom: 20px;
