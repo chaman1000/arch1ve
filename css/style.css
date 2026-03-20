@@ -67,15 +67,17 @@ box-shadow: 6px 6px 0px white;
 
 .album-grid {
 display: flex;
-flex-wrap: wrap;    
+flex-wrap: wrap;
 gap: 15px;
-justify-content: center;
+justify-content: flex-start; 
 padding: 20px;
+max-width: 800px;
+margin: 20px auto;
 }
 
 .album-grid img {
 width: 100px;
-height: 100px;
+aspect-ratio: 1 / 1;   
 object-fit: cover;
 }
 
