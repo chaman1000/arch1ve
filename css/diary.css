@@ -5,6 +5,11 @@
     src: url(assets\fonts\subwayticker.ttf);
 }
 
+@font-face {
+    font-family: '0xProtoNerd' ;
+    src: url(assets\fonts\0xProtoNerd.ttf);
+}
+
 body {
   margin: 0;
   font-family: "Courier New", monospace;
