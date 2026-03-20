@@ -70,7 +70,7 @@ font-family: 'SubwayTicker', monospace;
   margin-bottom: 20px;
 }
 
-.container {
-  justify-content: center;
+.menu {
+  text-align: center;
   font-family: '0xProtoNerd', monospace;
 }
