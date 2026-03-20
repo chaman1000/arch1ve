@@ -1,4 +1,10 @@
-/* RESET */
+
+
+@font-face {
+    font-family: subwayticker;
+    src: url(assets\fonts\subwayticker.ttf);
+}
+
 body {
   margin: 0;
   font-family: "Courier New", monospace;
@@ -54,6 +60,7 @@ a:hover {
 }
 
 h1 {
+    font-family: subwayticker, monospace;
   font-size: 20px;
   margin-bottom: 20px;
 }
