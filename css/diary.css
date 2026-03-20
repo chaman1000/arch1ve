@@ -69,3 +69,8 @@ font-family: 'SubwayTicker', monospace;
   font-size: 20px;
   margin-bottom: 20px;
 }
+
+.menu {
+  justify-content: center;
+  font-family: '0xProtoNerd', monospace;
+}
