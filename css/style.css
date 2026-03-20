@@ -77,8 +77,9 @@ margin: 20px auto;
 
 .album-grid img {
 width: 100px;
-aspect-ratio: 1 / 1;   
+height: 100px;     
 object-fit: cover;
+flex-shrink: 0;
 }
 
 /* Fondos por página */
