@@ -7,8 +7,8 @@
 @font-face {
     font-family: '0xProtoNerd' ;
     src: url(assets\fonts\0xProtoNerd.ttf) format('truetype');
-
-    * {
+}
+   * {
 margin: 0;
 padding: 0;
 box-sizing: border-box;
