@@ -17,7 +17,6 @@ body {
   background: #eaeaea;
   border-right: 1px solid #ccc;
   overflow-y: auto;
-  background: url("/arch1ve/assets/textures/fondo4.png") repeat;
 }
 
 .sidebar h2 {
