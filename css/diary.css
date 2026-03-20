@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: 'SubwayTicker' ;
-    src: url(assets\fonts\subwayticker.ttf);
+    src: url(assets\fonts\subwayticker.ttf) format('truetype');
 }
 
 @font-face {
     font-family: '0xProtoNerd' ;
-    src: url(assets\fonts\0xProtoNerd.ttf);
+    src: url(assets\fonts\0xProtoNerd.ttf) format('truetype');
 }
 
 body {
