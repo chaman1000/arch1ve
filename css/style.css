@@ -150,4 +150,17 @@ width: 95%;
 padding: 15px;
 }
 
+.diary-page {
+  background-color: black;
+  color: #00ff9f;
+}
+
+a {
+  color: #00cc88;
+}
+
+a:hover {
+  color: #00ffcc;
+}
+
 }
