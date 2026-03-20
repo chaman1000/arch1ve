@@ -1,31 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>9090vision</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>diary</title>
 
-    <base href="/arch1ve/">
+  <style>
+    /* RESET */
+    body {
+      margin: 0;
+      font-family: "Courier New", monospace;
+      background: #f5f5f5;
+      color: #111;
+    }
 
-    <link rel="stylesheet" href="/arch1ve/css/diary.css">
-    <link rel="icon" href="/arch1ve/assets/favicons/favicon32x32.png">
+    /* SIDEBAR */
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 260px;
+      height: 100vh;
+      padding: 20px;
+      background: #eaeaea;
+      border-right: 1px solid #ccc;
+      overflow-y: auto;
+    }
+
+    .sidebar h2 {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    /* LISTA */
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: #333;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* CONTENIDO */
+    .content {
+      margin-left: 260px;
+      padding: 40px;
+      max-width: 700px;
+      line-height: 1.6;
+    }
+
+    h1 {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+  </style>
 </head>
 
-<body class="diary-page">
+<body>
 
-<div class="sidebar">
-  <h2>archivo</h2>
+  <div class="sidebar">
+    <h2>archivo</h2>
 
-  <ul>
-    <li><a href="#">2026-03-19 / noche rara</a></li>
-    <li><a href="#">2026-03-17 / música</a></li>
-    <li><a href="#">2026-03-12 / notas</a></li>
-  </ul>
-</div>
+    <ul>
+      <li><a href="#">2026-03-19 / noche rara</a></li>
+      <li><a href="#">2026-03-17 / música</a></li>
+      <li><a href="#">2026-03-12 / notas</a></li>
+    </ul>
+  </div>
 
-<div class="content">
-  <h1>2026-03-19</h1>
-  <p>Hoy pensé en...</p>
-</div>
-
+  <div class="content">
+    <h1>2026-03-19</h1>
+    <p>
+      Hoy pensé en... <br><br>
+      Este es un ejemplo de entrada. Puedes escribir lo que quieras aquí:
+      texto largo, ideas, incluso meter imágenes o audio después.
+    </p>
+  </div>
 
 </body>
 </html>
