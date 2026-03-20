@@ -83,8 +83,14 @@ flex-shrink: 0;
 }
 
 .album-names {
-justify-content: center;
-color: white;
+max-width: 800px;
+margin: 0px auto;
+text-align: center;
+}
+
+.album-names h3 {
+    color: white;
+    line-height: 1.5;
 }
 
 /* Fondos por página */
