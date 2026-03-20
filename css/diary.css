@@ -17,6 +17,8 @@ body {
   background: #eaeaea;
   border-right: 1px solid #ccc;
   overflow-y: auto;
+  background: image("/arch1ve/assets/textures/fondo4.png")
+  ;
 }
 
 .sidebar h2 {
