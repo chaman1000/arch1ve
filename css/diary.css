@@ -28,6 +28,8 @@ body {
   background: #a5a5a5;
   border-right: 1px solid #ccc;
   overflow-y: auto;
+  background-image: url('assets/textures/fondo6.jpeg');
+  background-repeat: repeat-y;
 }
 
 .sidebar h2 {
