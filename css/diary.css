@@ -17,6 +17,13 @@ body {
   color: #111;
 }
 
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-family: "SubwayTicker", monospace;
+
+}
+
 /* SIDEBAR */
 .sidebar {
   position: fixed;
