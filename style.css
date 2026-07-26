@@ -1,0 +1,116 @@
+/* ===========================
+   ESTILOS GENERALES
+=========================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+.header1 {
+    color: #ffee00;
+    text-align: center;
+    margin: 50px 0;
+}
+
+/* ===========================
+   GALERÍA
+=========================== */
+
+.image-gallery {
+
+    width: min(95%, 1500px);
+    margin: 10px auto;
+
+    /* Masonry */
+    column-width: 200px;
+    column-gap: 20px;
+
+    padding-bottom: 50px;
+}
+
+.item {
+
+    break-inside: avoid;
+    margin-bottom: 16px;
+}
+
+/* Imágenes */
+
+.item img {
+
+    width: 100%;
+    display: block;
+}
+
+/* Videos */
+
+.item video {
+
+    width: 100%;
+    display: block;
+}
+
+/* Texto */
+
+.item p {
+    background: rgb(0, 0, 0);
+    padding: 0px;
+    line-height: 1;
+    color: #ffee00;
+}
+
+/* ===========================
+   TABLET
+=========================== */
+
+@media (max-width: 900px) {
+
+    .header1 {
+        margin: 30px 0;
+    }
+
+    .image-gallery {
+        width: 96%;
+        column-width: 200px;
+        column-gap: 12px;
+    }
+
+    .item {
+        margin-bottom: 12px;
+    }
+
+}
+
+/* ===========================
+   MÓVIL
+=========================== */
+
+@media (max-width: 600px) {
+
+    .header1 h1 {
+        font-size: 1.4rem;
+    }
+
+    .image-gallery {
+
+        width: 98%;
+        column-width: 170px;
+        column-gap: 8px;
+    }
+
+    .item {
+        margin-bottom: 8px;
+    }
+
+}
