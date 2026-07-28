@@ -13,6 +13,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 /* ===========================
    HEADER
 =========================== */
@@ -21,6 +22,10 @@ body {
     color: #ffee00;
     text-align: center;
     margin: 50px 0;
+}
+
+.text1 {
+    color: white
 }
 
 /* ===========================
