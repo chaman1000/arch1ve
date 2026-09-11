@@ -101,7 +101,7 @@ body {
    MÓVIL
 =========================== */
 
-@media (max-width: 300px) {
+@media (max-width: 900px) {
 
     .header1 h1 {
         font-size: 1.4rem;
