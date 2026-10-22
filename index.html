@@ -37,7 +37,8 @@ const MEDIA = [
   {type:'image', src:'media/assets/WEBP/18IMG.webp'},
   {type:'image', src:'media/assets/WEBP/abyss.webp'},
   {type:'image', src:'media/assets/WEBP/arboles.webp'},
-  {type:'image', src:'media/assets/WEBP/arete.png'}
+  {type:'image', src:'media/assets/WEBP/arete.png'},
+  {type:'image', src:'media/assets/WEBP/bo2.webp'},
   // {type:'video', src:'media/clip.mp4',  title:'Un clip'},
   // {type:'audio', src:'media/tema.mp3',  title:'Una canción'},
 ];
@@ -58,7 +59,7 @@ const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 function placeholder(i){
   const h=(i*47)%360, hh=300+(i*53)%140;
-  const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="100" height="${hh}"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(${h},70%,55%)"/><stop offset="1" stop-color="hsl(${(h+70)%360},75%,28%)"/></linearGradient></defs><rect width="300" height="${hh}" fill="url(#g)"/><circle cx="${80+(i*37)%150}" cy="${hh/2}" r="${40+(i*13)%50}" fill="hsla(${(h+180)%360},80%,75%,.55)"/><text x="16" y="${hh-16}" font-family="Arial" font-size="26" fill="#fff">${i+1}</text></svg>`;
+  const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="150"  height="${hh}"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(${h},70%,55%)"/><stop offset="1" stop-color="hsl(${(h+70)%360},75%,28%)"/></linearGradient></defs><rect width="300" height="${hh}" fill="url(#g)"/><circle cx="${80+(i*37)%150}" cy="${hh/2}" r="${40+(i*13)%50}" fill="hsla(${(h+180)%360},80%,75%,.55)"/><text x="16" y="${hh-16}" font-family="Arial" font-size="26" fill="#fff">${i+1}</text></svg>`;
   return 'data:image/svg+xml;utf8,'+encodeURIComponent(svg);
 }
 
